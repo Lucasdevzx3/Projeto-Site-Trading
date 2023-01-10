@@ -25,7 +25,7 @@
     font-size: 20px;
   }
   
-  /* Style the top navigation bar */
+  /* Style the top nav gradient */
   .topnav {
     overflow: hidden;
     background: rgb(63,94,251);
@@ -48,7 +48,7 @@
     color: black;
   }
   
-  /* Create two unequal columns that floats next to each other */
+  
   /* Left column */
   .leftcolumn {
     float: left;
@@ -62,6 +62,7 @@
     background-color: #f1f1f1;
     padding-left: 20px;
   }
+  /* Fake image pag1 */
   .imagem {
         width: 1000px;
         height: 200px;
@@ -70,6 +71,7 @@
         background-size: cover;
   }
 
+  /* Fake image pag1 */
   .imagem2{
     width: 1000px;
     height: 200px;
@@ -79,7 +81,7 @@
 
   }
   
-  /* Fake image */
+  /* Fake image pag1 */
   .fakeimg {
     background-image: url(https://cdn.plus500.com/Media/ArticlesMain/EUR_USD_Screen@0,75x.png);
     background-position: center;
@@ -92,6 +94,7 @@
     
     
   }
+  /* Fake image pag2 */
   .fakeimg2 {
     background-image: url(https://www.suno.com.br/wp-content/uploads/2018/07/mesa-de-opera%C3%A7%C3%B5es.jpg);
     background-position: center;
@@ -107,7 +110,7 @@
     margin-top: 20px;
   }
   
-  /* Clear floats after the columns */
+  /* Clear floats  */
   .row:after {
     content: "";
     display: table;
@@ -122,7 +125,7 @@
     margin-top: 20px;
   }
   
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  /* Responsive layout  */
   @media screen and (max-width: 800px) {
     .leftcolumn,
     .rightcolumn {
@@ -130,24 +133,28 @@
       padding: 0;
     }
   }
+  /* Fake image pag2 redes sociais */
   .fakeimg3 {
     background-image: url(https://files.tecnoblog.net/wp-content/uploads/2020/09/tamanhos-foto-facebook-instagram-youtube-twitter-pinterest-tiktok.png);
     background-position: left;
   }
+  /* Fake image pag2 redes sociais */
   .fakeimg4{
       background-image: url(https://www.shutterstock.com/image-illustration/forex-candlestick-pattern-trading-chart-260nw-1265712202.jpg);
       background-position: left;
     }
+    /* Fake image pag price action*/
     .fakeimg5{
       background-image: url(https://cdn.shopify.com/s/files/1/0631/0703/9411/files/planner_poker_3.jpg?v=1665761575&width=750);
       background-position: left;
     }
+     /* Fake image pag HFT*/
     .fakeimg6{
       background-image: url(https://blog.terrainvestimentos.com.br/wp-content/uploads/2022/04/HFT-Terra-Investimentos-scaled-1.jpg);
       background-position: left;
     }
   
-  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  /* Responsive layout */
   @media screen and (max-width: 400px) {
     .topnav a {
       float: none;
