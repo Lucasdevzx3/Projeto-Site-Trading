@@ -102,7 +102,7 @@
 
   /* Add a card effect for articles */
   .card {
-    background-color: white;
+    background-color: #727875
     padding: 20px;
     margin-top: 20px;
   }
@@ -130,6 +130,22 @@
       padding: 0;
     }
   }
+  .fakeimg3 {
+    background-image: url(https://files.tecnoblog.net/wp-content/uploads/2020/09/tamanhos-foto-facebook-instagram-youtube-twitter-pinterest-tiktok.png);
+    background-position: left;
+  }
+  .fakeimg4{
+      background-image: url(https://www.shutterstock.com/image-illustration/forex-candlestick-pattern-trading-chart-260nw-1265712202.jpg);
+      background-position: left;
+    }
+    .fakeimg5{
+      background-image: url(https://cdn.shopify.com/s/files/1/0631/0703/9411/files/planner_poker_3.jpg?v=1665761575&width=750);
+      background-position: left;
+    }
+    .fakeimg6{
+      background-image: url(https://blog.terrainvestimentos.com.br/wp-content/uploads/2022/04/HFT-Terra-Investimentos-scaled-1.jpg);
+      background-position: left;
+    }
   
   /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
   @media screen and (max-width: 400px) {
