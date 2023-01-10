@@ -69,10 +69,20 @@
         background-position: center;
         background-size: cover;
   }
+
+  .imagem2{
+    width: 1000px;
+    height: 200px;
+    background-image: url("https://i2.wp.com/meudaytrade.com/wp-content/uploads/2019/10/mesa-propriet%C3%A1ria-1.jpg?resize=600%2C368&ssl=1");
+    background-position: center;
+    background-size: cover;
+
+  }
   
   /* Fake image */
   .fakeimg {
-    background-color: #aaa;
+    background-image: url(https://cdn.plus500.com/Media/ArticlesMain/EUR_USD_Screen@0,75x.png);
+    background-position: center;
     width: 100%;
     padding: 20px;
   }
@@ -82,6 +92,13 @@
     
     
   }
+  .fakeimg2 {
+    background-image: url(https://www.suno.com.br/wp-content/uploads/2018/07/mesa-de-opera%C3%A7%C3%B5es.jpg);
+    background-position: center;
+    width: 100%;
+    padding: 20px;
+  }
+
 
   /* Add a card effect for articles */
   .card {
