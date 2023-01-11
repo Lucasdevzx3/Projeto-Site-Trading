@@ -105,10 +105,10 @@
 
   /* Add a card effect for articles */
   .card {
-    background-color: #727875
+    background-color: #727875;
     padding: 20px;
     margin-top: 20px;
-  }
+  }  
   
   /* Clear floats  */
   .row:after {
