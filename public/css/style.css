@@ -74,7 +74,7 @@
 
   }
 
-  /* Fake image pag1 */
+  /* image ADR pag1 */
   .imagem {
         width: 1000px;
         height: 200px;
@@ -92,6 +92,17 @@
     background-size: cover;
 
   }
+
+  /* imagem CANDLES */
+  .imagem3 {
+    width: 1000px;
+    height: 200px;
+    background-image: url("https://cdn.folhape.com.br/img/pc/1100/1/dn_arquivo/2021/09/maxim-hopman-fixlqxahcfk-unsplash-1.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  
   
   /* Fake image pag1 */
   .fakeimg {
