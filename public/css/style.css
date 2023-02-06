@@ -6,6 +6,8 @@
     font-family: Arial;
     padding: 10px;
     background: #f1f1f1;
+    background-image: url(../background\ trading.png);
+    
   }
   .clear{
     clear:both
