@@ -9,6 +9,11 @@
     background-image: url(../background\ trading.png);
     
   }
+  .logotipo{
+    width: 100px; /* ajuste o tamanho desejado */
+    height: auto; /* permite a proporção correta */
+    margin-right: 10px;
+  }
   .clear{
     clear:both
   }
@@ -80,7 +85,7 @@
   .imagem {
         width: 1000px;
         height: 200px;
-        background-image: url("https://www.alpharithms.com/wp-content/uploads/2283/modified-average-daily-range-alpharithms.jpg");
+        background-image: url(/public/bull\ and\ bear.png);
         background-position: center;
         background-size: cover;
   }
